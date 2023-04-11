@@ -1,6 +1,6 @@
 -- liquibase formatted sql
 
--- changeset weare4saken:1
+-- changeset garry:1
 CREATE TABLE airport
 (
     id        BIGSERIAL PRIMARY KEY,

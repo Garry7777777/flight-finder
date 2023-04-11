@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 public class Departure {
 
     @Id
-    private String flightNumber;
+    private String departureNumber;
     @ManyToOne(fetch = FetchType.LAZY)
     private Airport departureAirport;
     @ManyToOne(fetch = FetchType.LAZY)

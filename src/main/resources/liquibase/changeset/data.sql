@@ -1,6 +1,6 @@
 -- liquibase formatted sql
 
--- changeset weare4saken:4
+-- changeset garry:4
 INSERT INTO airport (name, city, address) VALUES
     ('Шереметьево', 'Москва', 'адрес №1'),
     ('Толмачево', 'Новосибирск', 'адрес №2'),
@@ -18,7 +18,7 @@ INSERT INTO airline (name) VALUES
 
 -- changeset weare4saken:6
 INSERT INTO departure (
-                    flight_number,
+                    departure_number,
                     departure_airport_id,
                     arrival_airport_id,
                     airline_id,
